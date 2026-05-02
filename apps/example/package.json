@@ -1,0 +1,20 @@
+{
+  "name": "wa-synapse-example",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Example WhatsApp bot using wa-synapse",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@wa-synapse/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  }
+}

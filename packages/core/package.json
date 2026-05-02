@@ -1,0 +1,22 @@
+{
+  "name": "@wa-synapse/core",
+  "version": "0.1.0",
+  "description": "Core framework for wa-synapse WhatsApp bot platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "sqlite3": "^5.1.6",
+    "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#main"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/qrcode-terminal": "^0.12.2",
+    "@types/sqlite3": "^3.1.11",
+    "typescript": "^5.4.5"
+  }
+}

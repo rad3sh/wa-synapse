@@ -1,0 +1,11 @@
+packages:
+  - 'packages/*'
+  - 'apps/*'
+
+onlyBuiltDependencies:
+  - whatsapp-web.js
+  - sqlite3
+  - bufferutil
+  - utf-8-validate
+  - esbuild
+  - puppeteer
